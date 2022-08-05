@@ -11,3 +11,5 @@ D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCo
 D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
 D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.lodding.resources
+D:\Final_Project\App\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Main_Page.resources

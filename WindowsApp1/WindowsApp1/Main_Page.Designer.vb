@@ -47,6 +47,20 @@ Partial Class Main_Page
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'ToolStripLabel1
+        '
+        ToolStripLabel1.AutoSize = False
+        ToolStripLabel1.BackColor = System.Drawing.Color.Transparent
+        ToolStripLabel1.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.repair_workshop_icon_png_2897
+        ToolStripLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        ToolStripLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        ToolStripLabel1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ToolStripLabel1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        ToolStripLabel1.Name = "ToolStripLabel1"
+        ToolStripLabel1.Size = New System.Drawing.Size(110, 90)
+        ToolStripLabel1.Text = "                     "
+        ToolStripLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay
+        '
         'ToolStrip1
         '
         Me.ToolStrip1.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(52, Byte), Integer))
@@ -188,20 +202,6 @@ Partial Class Main_Page
         Me.ToolStripButton3.Size = New System.Drawing.Size(128, 24)
         Me.ToolStripButton3.Text = "Reports"
         '
-        'ToolStripLabel1
-        '
-        ToolStripLabel1.AutoSize = False
-        ToolStripLabel1.BackColor = System.Drawing.Color.Transparent
-        ToolStripLabel1.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.repair_workshop_icon_png_2897
-        ToolStripLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        ToolStripLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        ToolStripLabel1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ToolStripLabel1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        ToolStripLabel1.Name = "ToolStripLabel1"
-        ToolStripLabel1.Size = New System.Drawing.Size(110, 90)
-        ToolStripLabel1.Text = "                     "
-        ToolStripLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay
-        '
         'ToolStripSeparator10
         '
         Me.ToolStripSeparator10.Name = "ToolStripSeparator10"
@@ -215,6 +215,7 @@ Partial Class Main_Page
         Me.Controls.Add(Me.ToolStrip1)
         Me.Name = "Main_Page"
         Me.Text = "Main_Page"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)

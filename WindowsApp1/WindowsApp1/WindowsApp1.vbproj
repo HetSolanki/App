@@ -81,6 +81,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="lodding.Designer.vb">
+      <DependentUpon>lodding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lodding.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login_Page.Designer.vb">
       <DependentUpon>Login_Page.vb</DependentUpon>
     </Compile>
@@ -114,6 +120,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="lodding.resx">
+      <DependentUpon>lodding.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Page.resx">
       <DependentUpon>Login_Page.vb</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\repair-workshop-icon-png-2897.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
